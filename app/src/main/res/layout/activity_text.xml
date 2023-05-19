@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e7e4ed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adli.mar.text1">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:fillViewport="false"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:text="طرز استفاده"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="این اپلیکیشن توسط تیم برنامه نویسی دبیرستان فرزانگان 4 انجام شده است و سود حاصل از فروش آن به سیل زدگان اختصاص می یابد"
+
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+

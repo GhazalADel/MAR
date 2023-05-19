@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#235ec6"
+    android:backgroundTint="#fcf9f9"
+    android:orientation="vertical" >
+
+    <AutoCompleteTextView
+        android:id="@+id/searchbox"
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        android:background="#041341"
+        android:hint="Type your english word"
+        android:textColorHint="#f1eaea"
+        android:padding="5dip"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchbox"
+        android:background="@drawable/dictionary"
+        android:scrollbars="horizontal" >
+
+        <TextView
+            android:id="@+id/passage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dip"
+            android:gravity="right"
+            android:textColor="#050001"
+            android:textSize="20dip" />
+
+    </ScrollView>
+
+
+</RelativeLayout>

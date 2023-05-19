@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:padding="85dip"
+    android:background="@drawable/sd"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="263dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dip"
+            android:textSize="24.5sp" />
+
+        <Button
+            android:id="@+id/new_button"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dip"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/btn"
+
+            android:text="شروع بازی" />
+
+        <Button
+            android:id="@+id/continue_button"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dip"
+            android:background="@drawable/btn"
+            android:text="ادامه بازی" />
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dip"
+            android:background="@drawable/btn"
+            android:text="خروج" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e7e4ed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adli.mar.text1">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:fillViewport="false"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:text="طرز استفاده"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="طرز استفاده :
+
+راى استفاده از يک برنامه اولين چيزى که مهمه اينه که اون برنامه به درد ما مى خوره يا نه.
+درس خوندن هدف عمده ى ما دانش آموزاست و برنامه ريزى براى موفقيت در آن خيلى مهم است.
+خب شايد اين برنامه براى اونايى خوب باشه که بايد براى درس خوندن يکى بهشون تذکر يا هشدار بده يا شايدم براى کسايي خوب باشه که دوست دارن برنامه ى روزانه درسى شون رو توى گوشى شون تنظيم کنند.  هم کاغذ کمترى مصرف ميشه هم بهانه اى مى دهد دستشان براى نگه داشتن گوشى.
+
+خب مى رويم سراغ طرز تهيه يک برنامه ى درسى تر و تميز با اي برنامه:
+
++اول از همه شما بايد رشته تحصيلى تان را مشخص کنيد و وارد صفحه بعد شويد.
+
++حالا روى منو سمت راست ضربه بزنيد تا منوى درس ها براتون باز بشه.
+
++درس موردنظرتون رو انتخاب کنيد و ساعتى رو که مى خواهيد خوندن درس رو شروع کنيد تنظيم کنيد.
+
++وقتى زمان ساعتى که تنظيم کرده ايد فرا رسيد در اعلانات با صداى زنگ به شما به شما هشدار مى دهد.
+
+و ايجورى برنامه شما حاضر و آماده است.
+
+ هدف ما در ساخت اي برنامه اين است که به شما در مسير ترقى و پيشرفت کمک کند.
+
+                                                                                    موفق و مؤيد باشيد
+                                                                           تيم برنامه نويسى ژيان شادى"
+
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adli.mar.text1">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="درباره ما"
+        android:textColor="#0a0909"
+        android:textSize="45dp"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="377dp"
+        android:layout_height="402dp"
+        android:text="سلام!
+چرا جامدادی؟؟؟!
+جامدادی برای نگهداری لوازم التحریر ما دانش آموزهاست،در واقع خونه ی بیشتر وسایلمون !
+حالا این جامدادی دیجیتال کلی قسمت های مفید داره،مثل
+دیکشنری ،ماشین حساب مهندسی،درسنامه های پایه دهم ،نمونه
+سوالات و همچنین سرگرمی ... که هدف این برنامه اینه که درس
+خوندن رو به دنیای امروزی و اندرویدی نزدیکتر کنیم و نشون بدیم با گوشی هم میشه درس خوند!!!
+با استفاده از این برنامه و معرفی به دوستانتان ما را حمایت کنید
+ارتباط با ما :
+appjamedadi@gmail.com
+تیم برنامه نویسی اندروید فرزانگان 4 :
+غزل آشفته دل،الهه واحد،نرگس قدس،بشرا عزیزیان
+
+"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#050000"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="95dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" موفق باشید "
+        android:textColor="#050505"
+        android:textSize="26sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
